@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form Exercise</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+	<form>
+	<div>
+		<label for="First Name">First Name:</label>
+	    <input id="First Name" type="text" name=" First-Name" placeholder="John" required />
+	    <label for="Last Name">Last Name:</label>
+	    <input id="Last Name" type="text" name="Last-Name" placeholder="Smith" required/>
+    </div>
+    <div>
+	     <lable for="choice-1">Male</lable>
+	     <input id="choice-1" type="radio" name="radio-choice" value="choice-1">
+	     <lable for="choice-2">Female</lable>
+	     <input id="choice-2" type="radio" name="radio-choice" value="choice-2">
+	     <lable for="choice-3">Other</lable>
+	     <input id="choice-3" type="radio" name="radio-choice" value="choice-3">
+    </div>
+	<div>
+	     <label for="Email">Email:</label>
+	     <input id="Email" type="Email" placeholder="Your Email"/>
+	     <label for="Password">Password:</label>
+	     <input id="Password" type="Password" pattern=".{5,10}" placeholder="Your Password" required title="5 to 10 charaters" />
+	</div>
+	<div>
+		<label for="Select birthday">Birthday</label>
+		<select id="Select birthday" Name="select-choice" >
+			<option value="0" selected disabled>Month</option>
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">Mar</option>
+			<option value="Apr">Apr</option>
+			<option value="May">May</option>
+			<option value="Jun">Jun</option>
+			<option value="Jul">Jul</option>
+			<option value="Aug">Aug</option>
+			<option value="Sep">Sep</option>
+			<option value="Oct">Oct</option>
+			<option value="Nov">Nov</option>
+			<option value="Dec">Dec</option>
+		</select>
+		<select id="day" name="Birthday-day">
+			<option value="0" selected disabled>Day</option>
+			<option value="Jan">1</option>
+			<option value="Feb">2</option>
+			<option value="Mar">3</option>
+			<option value="Apr">4</option>
+			<option value="May">5</option>
+			<option value="Jun">6</option>
+			<option value="Jul">7</option>
+			<option value="Aug">8</option>
+			<option value="Sep">9</option>
+			<option value="Oct">10</option>
+			<option value="Nov">11</option>
+			<option value="Dec">12</option>
+		</select>
+		<select id="Select birthday" name="Birthday">
+			<option value="0" selected disabled>Year</option>
+			<option value="1997">1997</option>
+			<option value="1998">1998</option>
+			<option value="1999">1999</option>
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>
+			<option value="2002">2002</option>
+			<option value="2003">2003</option>
+			<option value="2004">2004</option>
+			<option value="2005">2005</option>
+			<option value="2006">2006</option>
+			<option value="2007">2007</option>
+			<option value="2008">2008</option>
+		</select>
+	<div>I agree to the terms and conditions<label for="Checkbox"></label>
+	<input type="Checkbox" id="checkbox" name="checkbox" id="checkbox" required />
+    </div>
+	<button>Submit</button>
+    </form>
+</body>
+</html>
