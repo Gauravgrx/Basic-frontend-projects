@@ -1,1 +1,1 @@
-# cv
+# basic frontend projects
