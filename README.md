@@ -1,1 +1,1 @@
-# basic frontend projects
+# basic frontend and full stack projects
